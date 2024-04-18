@@ -54,7 +54,7 @@ function LoginForm() {
       await axios.post('/login', data);
     } catch (error) {
       // Handle login error response
-      console.log(error)
+      console.log(error);
     }
   }
 
